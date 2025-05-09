@@ -14,7 +14,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
 8.	Enter a string as input and it is identified as valid or invalid.
 # PROGRAM:
 
-EXPR5.L L file
+5ex.l file
 ```
 %{
 #include "y.tab.h"
@@ -32,7 +32,7 @@ int yywrap() {
 }
 ```
 
-EXPR5.Y Y file
+5ex.y file
 ```
 %{
 #include <stdio.h>
